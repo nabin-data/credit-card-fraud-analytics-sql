@@ -1,0 +1,5 @@
+strategy,alerts,TP,FP,FN,TN,precision_pct,recall_pct,fraud_value_captured_INR,fraud_value_capture_pct
+Amount > 15000 OR 5-minute velocity >= 3,76,75,1,63,4861,98.68,54.35,3017445.99,98.66
+"All four signals OR (amount, velocity, device, customer baseline)",209,78,131,60,4731,37.32,56.52,3028383.65,99.02
+Shared device >=3 customers,2930,93,2837,45,2025,3.17,67.39,1766137.77,57.75
+Shared device >=3 customers AND amount >5000,77,44,33,94,4829,57.14,31.88,1738748.23,56.86
